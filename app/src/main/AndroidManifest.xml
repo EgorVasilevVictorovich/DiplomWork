@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/loggos"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Directory"
+        tools:targetApi="31">
+        <activity
+            android:name=".view.TableActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".view.AddNotesActivity"
+            android:exported="false"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name=".view.UpdateActivity"
+            android:exported="false"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name=".view.DirecActivity"
+            android:exported="false"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name=".view.PhysActivity"
+            android:exported="false"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name=".view.TaimActivity"
+            android:exported="false"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name=".view.ChemisActivity"
+            android:exported="false"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name=".view.MathemActivity"
+            android:exported="false"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name=".view.SecondActivity"
+            android:exported="false"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
